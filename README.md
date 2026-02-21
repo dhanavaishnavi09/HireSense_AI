@@ -64,28 +64,6 @@ This iteration:
 - Sounds natural
 - Maintains technical rigor
 - Has a product focus
-
-
-📂 **Project Structure**
-
-```text
-HireSense_AI/
-│
-├── app.py
-├── requirements.txt
-├── .gitignore
-│
-├── core/
-│   ├── pdf_extract.py      # Extract text from resume PDFs
-│   ├── preprocess.py       # Clean + normalize text
-│   ├── skills.py           # Skill dictionary mapping + extraction
-│   ├── experience.py       # Experience parsing heuristics
-│   ├── projects.py         # Project relevance signals
-│   ├── matcher.py          # TF-IDF + cosine + weighted scoring
-│   ├── explain.py          # Explainability generation
-│   └── report.py           # Final structured report
-│
-└── data/
-    └── skills_db.json      # Canonical skills + aliases
+📂 Built with a modular architecture separating resume extraction, skill analysis, scoring engine, and explainability logic.
 
 
