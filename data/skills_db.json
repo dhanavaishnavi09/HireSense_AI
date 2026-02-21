@@ -1,0 +1,26 @@
+{
+  "required": [
+    "python",
+    "sql",
+    "data structures",
+    "oops",
+    "rest api",
+    "git"
+  ],
+  "preferred": [
+    "docker",
+    "aws",
+    "system design",
+    "linux",
+    "flask",
+    "django"
+  ],
+  "synonyms": {
+    "rest api": ["apis", "restful api", "rest"],
+    "python": ["python3"],
+    "sql": ["mysql", "postgresql", "sqlite"],
+    "data structures": ["dsa", "data structure"],
+    "oops": ["object oriented programming", "oop"],
+    "aws": ["amazon web services"]
+  }
+}
