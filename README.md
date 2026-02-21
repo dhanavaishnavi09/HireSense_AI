@@ -64,6 +64,7 @@ This iteration:
 - Sounds natural
 - Maintains technical rigor
 - Has a product focus
+
 📂 Built with a modular architecture separating resume extraction, skill analysis, scoring engine, and explainability logic.
 
 
